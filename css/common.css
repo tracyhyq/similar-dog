@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../images/bg.png) no-repeat center;
+	font-family: Microsoft Yahei;
+	width: 100%;
+	height: 100%;
+}
