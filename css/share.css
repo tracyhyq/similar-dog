@@ -1,0 +1,44 @@
+@import url(common.css); 
+
+body {
+	background: url(../images/share-bg.png) no-repeat center;
+}
+
+.share-tip {
+	height: 180px;
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+}
+.share-tip .share-img {
+	display: block;
+	position: absolute;
+	width: 301px;
+	height: 80px;
+	background: url(../images/tips.png) no-repeat center;
+	background-size: 301px 80px;
+	top: 5px;
+	right: 10px;
+}
+.share-bd {
+	width: 100%;
+	min-height: 150px;
+	background-color: rgba(255, 255, 255, .2);
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+.share-bd .text {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.share-bd .person-img {
+	display: block;
+	width: 78px;
+	height: 79px;
+	background: url(../images/icon_who.png) no-repeat center;
+	background-size: 78px 79px;
+	margin: 20px auto;
+}

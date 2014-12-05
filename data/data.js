@@ -20,7 +20,7 @@ define([], function(){
 		            "score": 10
 		        }, {
 		        	"title": "B",
-		            "text": "不是",
+		            "text": "我家的毛小孩长得像范冰冰~你家的狗狗长得像我家的毛小孩长得像范冰冰~你家的狗狗长得像我家的毛小孩长得像范冰冰~你家的狗狗长得像",
 		            "score": 100
 		        }]
 		    }, 
@@ -81,37 +81,46 @@ define([], function(){
 		        }]
 		    }
 	    ],
-	    "results": [
-		    {
-		        "left": 0,
-		        "right": 100,
-		        "title": "刘德华",
-		        "content": "你家狗狗像刘德华"
-		    }, 
-		    {
-		        "left": 101,
-		        "right": 200,
-		        "title": "刘德华2",
-		        "content": "你家狗狗像刘德华2"
-		    }, 
-		    {
-		        "left": 201,
-		        "right": 300,
-		        "title": "刘德华3",
-		        "content": "你家狗狗像刘德华3"
-		    }, 
-		    {
-		        "left": 301,
-		        "right": 400,
-		        "title": "刘德华4",
-		        "content": "你家狗狗像刘德华4"
-		    }, 
-		    {
-		        "left": 401,
-		        "right": 500,
-		        "title": "刘德华5",
-		        "content": "你家狗狗像刘德华5"
-		    }
-	    ]
+	    "share": {
+	    	"url": "https://www.google.com.hk/images/srpr/logo11w.png",
+	    	"content": "快来看啊，我家的狗狗像吴亚军这个狗贼！！！！！"
+	    },
+	    "result_page": {
+	    	"btn_value": "立即领取",
+	    	"tip": "为狗狗<span class=\"change-color\">免费</span>领取一份礼物",
+	    	"href": "http://www.baidu.com",
+	    	"results": [
+			    {
+			        "min": 0,
+			        "max": 100,
+			        "title": "刘德华",
+			        "content": "你家狗狗像刘德华"
+			    }, 
+			    {
+			        "min": 101,
+			        "max": 200,
+			        "title": "刘德华2",
+			        "content": "你家狗狗像刘德华2"
+			    }, 
+			    {
+			        "min": 201,
+			        "max": 300,
+			        "title": "刘德华3",
+			        "content": "你家狗狗像刘德华3"
+			    }, 
+			    {
+			        "min": 301,
+			        "max": 400,
+			        "title": "刘德华4",
+			        "content": "你家狗狗像刘德华4"
+			    }, 
+			    {
+			        "min": 401,
+			        "max": 550,
+			        "title": "刘德华5",
+			        "content": "你家狗狗像刘德华5"
+			    }
+		    ]
+	    }
 	};
 });

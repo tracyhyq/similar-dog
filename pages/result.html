@@ -7,10 +7,25 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 		<meta name="format-detection" content="telephone=no"/>
-		<link rel="stylesheet" type="text/css" href="css/result.css">
+		<link rel="stylesheet" type="text/css" href="../css/result.css">
 		<title>狗狗像那个明星</title>
 	</head>
 	<body>
-	<script src="../js/require.min.js" data-main="../js/result" charset="utf-8"></script>
+		<div class="result"></div>
+		<div class="gift"></div>
+		<script type="text/template" id="tpl-result">
+		    <div class="result-wrap">
+		    	<span class="title"><%= title %></span>
+		    	<span class="content"><%= content %></span>
+		    </div>
+		</script>
+		<script type="text/template" id="tpl-gift">
+		    <div class="gift-wrap">
+		    	<span class="gift-img"></span>
+		    	<span class="gift-tip"><%= tip %></span>
+		    	<a href="<%= href %>"  class="gift-btn"><%= btn_value %></a>
+		    </div>
+		</script>
+		<script src="../js/require.min.js" data-main="../js/result" charset="utf-8"></script>
 	</body>
 </html>
