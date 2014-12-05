@@ -14,10 +14,11 @@
 		<div class="share-tip">
 			<span class="share-img"></span>
 		</div>
-		<div class="share-bd">
-			<p class="text">您的狗狗像的明星居然是...</p>
+		<div class="share-bd"></div>
+		<script type="text/template" id="tpl-share">
+		    <p class="text"><%= tip %></p>
 			<span class="person-img"></span>
-		</div>
+		</script>
 		<script src="../js/lib/WeixinApi.js"></script>
 		<script src="../js/require.min.js" data-main="../js/share" charset="utf-8"></script>
 		<script type="text/javascript">

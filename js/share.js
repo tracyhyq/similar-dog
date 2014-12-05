@@ -20,6 +20,8 @@ require([
 ], function($, _, data){
 	$(document).ready(function(){
 		var shareData = data.share;
+		$('.share-bd').html(_.template($('#tpl-share').html())(shareData));
+
 		/***********************************封装微信内置分享*********************************/
 
 		// 开启Api的debug模式

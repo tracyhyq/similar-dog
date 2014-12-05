@@ -159,7 +159,8 @@ define([], function(){
 	    ],
 	    "share": {
 	    	"url": "https://mmbiz.qlogo.cn/mmbiz/QxhI6661iau5ibjjVdGp4LOzGMBe1iasmqnqd0HxibVn5PKnu4hZuLnpiaicV4wvfF9oK2xckhvUKz7RicyjZIOpeUiaEA/0",
-	    	"content": "好准！测测主人在狗狗心中形象？"
+	    	"content": "好准！测测主人在狗狗心中形象？",
+	    	"tip": "你在狗狗心中的形象居然是..."
 	    },
 	    "result_page": {
 	    	"btn_value": "立即领取",
