@@ -29,15 +29,17 @@
 	min-height: 55px;
 	width: 100%;
 	margin-top: 10px;
-	background-color: rgba(255, 255, 255, .4);
+	background-color: rgba(0, 0, 0, .2);
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
+	font-family: Microsoft Yahei;
 }
 .answer-item .outer {
 	min-height: 55px;
 	width: 300px;
 	margin: 0 auto;
 	position: relative;
+	font-weight: bold;
 }
 .outer .selection {
 	display: block;
