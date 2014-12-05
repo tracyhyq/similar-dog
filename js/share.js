@@ -30,7 +30,7 @@ require([
 		    // 微信分享的数据
 		    var wxData = {
 		        "imgUrl": shareData.url,
-		        "link":'http://finddog.sinaapp.com/',
+		        "link":'http://182.92.231.103/similar-dog',
 		        "desc": shareData.content,
 		        "title": shareData.content
 		    };
